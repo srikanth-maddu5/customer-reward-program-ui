@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from "react";
+import PageCustomerReward from "./PageCustomerReward";
+
 import './App.css';
+import { getData } from './utils';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [customerData, setCustomerDate] = useState([]);
+    const [transactionData, setTransactionData] = useState([]);
+    const [spinner, setSpinner] = useState(false);
+    const [error, setError] = useState();
+
+    useEffect(() => {
+        (async () => {
+            const { customerData, transactionData, error=null } = await getData(setSpinner);
+            console.log(customerData);
+            setCustomerDate(customerData);
+            setTransactionData(transactionData);
+            setError(error);
+        })();
+    }, []);
+
+    return (
+        <PageCustomerReward 
+            customerData={customerData}
+            transactionData={transactionData}
+            spinner={spinner}
+            error={error}
+        />
+    );
 }
 
 export default App;

@@ -1,0 +1,71 @@
+[{
+        "customer_id": 1,
+        "transaction_date": "2017-02-12",
+        "transaction_amount": "38"
+    },
+    {
+        "customer_id": 1,
+        "transaction_date": "2017-01-15",
+        "transaction_amount": "137"
+    },
+    {
+        "customer_id": 1,
+        "transaction_date": "2020-03-18",
+        "transaction_amount": "193"
+    },
+    {
+        "customer_id": 1,
+        "transaction_date": "2017-01-15",
+        "transaction_amount": "137"
+    },
+    {
+        "customer_id": 2,
+        "transaction_date": "2020-03-18",
+        "transaction_amount": "193"
+    },
+    {
+        "customer_id": 2,
+        "transaction_date": "2021-12-07",
+        "transaction_amount": "132"
+    },
+    {
+        "customer_id": 3,
+        "transaction_date": "2021-12-07",
+        "transaction_amount": "32"
+    },
+    {
+        "customer_id": 4,
+        "transaction_date": "2017-02-14",
+        "transaction_amount": "180"
+    },
+    {
+        "customer_id": 5,
+        "transaction_date": "2015-10-26",
+        "transaction_amount": "194"
+    },
+    {
+        "customer_id": 6,
+        "transaction_date": "2020-10-21",
+        "transaction_amount": "51"
+    },
+    {
+        "customer_id": 7,
+        "transaction_date": "2014-12-21",
+        "transaction_amount": "65"
+    },
+    {
+        "customer_id": 8,
+        "transaction_date": "2016-05-31",
+        "transaction_amount": "33"
+    },
+    {
+        "customer_id": 8,
+        "transaction_date": "2014-12-21",
+        "transaction_amount": "296"
+    },
+    {
+        "customer_id": 8,
+        "transaction_date": "2020-05-31",
+        "transaction_amount": "335"
+    }
+]

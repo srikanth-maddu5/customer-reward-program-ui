@@ -1,0 +1,74 @@
+[
+    {
+      "customer_id": 1,
+      "age": 30,
+      "name": "Eliza Webster",
+      "gender": "female",
+      "email": "elizawebster@nurplex.com",
+      "phone": "+1 (944) 565-3923",
+      "address": "996 Poplar Street, Grandview, Hawaii, 9040"
+    },
+    {
+      "customer_id": 2,
+      "age": 31,
+      "name": "Jeannie Kelly",
+      "gender": "female",
+      "email": "jeanniekelly@nurplex.com",
+      "phone": "+1 (814) 452-2810",
+      "address": "933 Seigel Street, Maybell, Guam, 2492"
+    },
+    {
+      "customer_id": 3,
+      "age": 31,
+      "name": "Brandi Leach",
+      "gender": "female",
+      "email": "brandileach@nurplex.com",
+      "phone": "+1 (983) 407-2657",
+      "address": "579 Lafayette Avenue, Stewartville, Federated States Of Micronesia, 4205"
+    },
+    {
+      "customer_id": 4,
+      "age": 20,
+      "name": "Saunders Gallegos",
+      "gender": "male",
+      "email": "saundersgallegos@nurplex.com",
+      "phone": "+1 (983) 582-3324",
+      "address": "539 Clay Street, Hampstead, Oregon, 7501"
+    },
+    {
+      "customer_id": 5,
+      "age": 23,
+      "name": "Marianne Curry",
+      "gender": "female",
+      "email": "mariannecurry@nurplex.com",
+      "phone": "+1 (996) 504-3434",
+      "address": "865 Victor Road, Deercroft, Marshall Islands, 5565"
+    },
+    {
+      "customer_id": 6,
+      "age": 28,
+      "name": "Ana Slater",
+      "gender": "female",
+      "email": "anaslater@nurplex.com",
+      "phone": "+1 (988) 509-2406",
+      "address": "766 Powell Street, Bloomington, Palau, 6547"
+    },
+    {
+      "customer_id": 7,
+      "age": 24,
+      "name": "Florine Johnson",
+      "gender": "female",
+      "email": "florinejohnson@nurplex.com",
+      "phone": "+1 (964) 475-3151",
+      "address": "687 McDonald Avenue, Ernstville, New York, 2104"
+    },
+    {
+      "customer_id": 8,
+      "age": 23,
+      "name": "Therese Allison",
+      "gender": "female",
+      "email": "thereseallison@nurplex.com",
+      "phone": "+1 (813) 555-2048",
+      "address": "855 Ovington Court, Chaparrito, Northern Mariana Islands, 6189"
+    }
+  ]
