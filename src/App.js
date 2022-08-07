@@ -14,7 +14,6 @@ function App() {
     useEffect(() => {
         (async () => {
             const { customerData, transactionData, error=null } = await getData(setSpinner);
-            console.log(customerData);
             setCustomerDate(customerData);
             setTransactionData(transactionData);
             setError(error);

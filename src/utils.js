@@ -117,7 +117,6 @@ export async function getData(setSpinner) {
 
   } catch(e) {
     obj['error'] = e.message;
-    console.log(e.message);
   } finally {
     setSpinner(false);
   }
